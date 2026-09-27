@@ -60,7 +60,7 @@ In a real lending environment, models must comply with fair lending regulations 
 
 Using `CODE_GENDER` strictly as group labels for a post-scoring audit (not as model inputs), we evaluated the **Disparate Impact Ratio** (DIR), which is the approval rate of the lower-approval group divided by the higher-approval group. 
 
-In our validation, the model produced a Disparate Impact Ratio of **0.8711**. Because this clears the common **80% "four-fifths rule"** reference point used in US employment/lending screens, it does not immediately flag as adverse impact under that specific benchmark. However, the ~13% gap would still warrant rigorous investigation by a compliance team before any deployment.
+In our validation, the model produced a Disparate Impact Ratio of **0.5437**. Because this falls well below the common **80% "four-fifths rule"** reference point used in US employment/lending screens, it immediately flags as adverse impact under that specific benchmark. This severe gap would absolutely warrant rigorous investigation and remediation by a compliance team before any deployment.
 
 ## Repository Contents
 - `Credit_Risk_Analysis.ipynb`: The primary Jupyter Notebook for presentation.
